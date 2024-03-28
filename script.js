@@ -17,6 +17,7 @@ function ask(question, yes, no) {
 
   const sum = function(a, b) {
     a + b;
+    return;
   }
 
-  console.log(sum); 
+  console.log(sum(1, 2)); 
